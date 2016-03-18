@@ -1,0 +1,11 @@
+[General]
+0=chuxinzhe.png
+10=lueyouxiaocheng.png
+20=tufu.png
+30=ranshaodeyongqi.png
+40=zhulutianxia.png
+50=zhuzaiyiqie.png
+60=shuiyuzhengfeng
+80=duguqiubai.png
+90=jueshiwushuang.png
+100=zhiyoushenzhidao.png

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>891</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>连连看</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>891</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏</string>
+    </property>
+    <addaction name="startGameAction"/>
+    <addaction name="restartGameAction"/>
+    <addaction name="stopGameAction"/>
+    <addaction name="saveViewAction"/>
+    <addaction name="saveAction"/>
+    <addaction name="restoreAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>游戏设置</string>
+    </property>
+    <addaction name="settingDialog"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="guideAction"/>
+    <addaction name="aboutAction"/>
+    <addaction name="awardToolAction"/>
+   </widget>
+   <widget class="QMenu" name="m_guanqiaMenu">
+    <property name="title">
+     <string>关卡</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="m_guanqiaMenu"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <action name="startGameAction">
+   <property name="text">
+    <string>开始游戏</string>
+   </property>
+  </action>
+  <action name="actionDev_save_layers">
+   <property name="text">
+    <string>dev_save_layers</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="stopGameAction">
+   <property name="text">
+    <string>结束游戏</string>
+   </property>
+  </action>
+  <action name="settingDialog">
+   <property name="text">
+    <string>控制面板</string>
+   </property>
+  </action>
+  <action name="testFindCanGo">
+   <property name="text">
+    <string>左上角可以到哪里</string>
+   </property>
+  </action>
+  <action name="testMouseClick">
+   <property name="text">
+    <string>鼠标疯狂点击</string>
+   </property>
+  </action>
+  <action name="autoLink">
+   <property name="text">
+    <string>自动连击若干对</string>
+   </property>
+  </action>
+  <action name="restartGameAction">
+   <property name="text">
+    <string>重新开始</string>
+   </property>
+  </action>
+  <action name="guideAction">
+   <property name="text">
+    <string>游戏指南</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="saveViewAction">
+   <property name="text">
+    <string>截图</string>
+   </property>
+  </action>
+  <action name="saveAction">
+   <property name="text">
+    <string>存档</string>
+   </property>
+  </action>
+  <action name="restoreAction">
+   <property name="text">
+    <string>恢复存档</string>
+   </property>
+  </action>
+  <action name="awardToolAction">
+   <property name="text">
+    <string>求点道具...</string>
+   </property>
+  </action>
+  <action name="defaultIconAction">
+   <property name="text">
+    <string>切换回默认图标库</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
