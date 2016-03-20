@@ -257,7 +257,12 @@ void MainWindow::on_aboutAction_triggered(){
 }
 
 void MainWindow::on_guideAction_triggered(){
-	//QMessageBox::about (this,"连连看",m_gc->gets ("guide"));
+		QMessageBox::about (this,"关于",m_gc->gets ("guide"));
+	/*//QMessageBox::about (this,"连连看",m_gc->gets ("guide"));
+		QString content = m_gc->gets("guide");
+		QString title ="连连看";
+		//QMessageBox::about(this,title,content);
+		QMessageBox.about(this,title,content);*/
 }
 
 void MainWindow::roundSelectSlot(){
